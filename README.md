@@ -17,7 +17,7 @@ It helps in early identification of plant diseases, which is useful for farmers 
 
 - Model Used: Convolutional Neural Network (CNN)
 - Task: Image classification of plant leaf diseases
-- Dataset: Plant leaf image dataset (mention source if known)
+- Dataset: Plant leaf image dataset (from Kaggle)
 - Image Preprocessing: Image resizing and normalization
 - Training Split: 80% training, 20% testing
 - Epochs: 1000
