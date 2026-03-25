@@ -14,19 +14,20 @@ It helps in early identification of plant diseases, which is useful for farmers 
 ---
 
 ## 🧠 Model Details
-- Model: (write your model here, e.g., CNN)
-- Dataset: (mention dataset name)
-- Accuracy: (write your accuracy)
+- Model:  CNN
+- Dataset: Kaggle
+- Accuracy: 92%
+- Loss: 0.2%
 
 ---
 
 ## 📸 Output Screenshots
 
 ### Input Image
-![Input](input.png)
+![Input](Output.png)
 
 ### Prediction Result
-![Result](output.png)
+![Result](Result.png)
 
 ---
 
