@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🌿 Plant Disease Detector</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌱 Plant Disease Detection System</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+    <div class="result-card">
+
+        <h2>
+            Prediction:
+            <span class="{{ 'green' if prediction=='Healthy' else 'red' }}">
+                {{ prediction }}
+            </span>
+        </h2>
+
+        <h3>Confidence: {{ confidence }}%</h3>
+
+        <h3>Plant: {{ plant }}</h3>
+        <h3>Disease: {{ disease }}</h3>
+
+        <img src="{{ img_path }}" class="leaf-img">
+
+        {% if prediction == "Healthy" %}
+            <p class="green-text">✔ This leaf is healthy.</p>
+        {% else %}
+            <h3>🩺 How to Cure</h3>
+            <ul>
+                {% for step in cures %}
+                    <li>{{ step }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

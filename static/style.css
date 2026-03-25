@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient(to right, #9fffb0, #8fd3ff);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 55%;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #046428;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #0a7a3e;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #14a453;
+}
+
+.result-card {
+    margin-top: 25px;
+    padding: 20px;
+    background: #eefaff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.leaf-img {
+    width: 260px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.green { color: green; font-weight: bold; }
+.red { color: red; font-weight: bold; }
+
+.info {
+    background: #fff3e0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.green-text { color: darkgreen; }
+.red-text { color: #c21b1b; }
