@@ -1,18 +1,43 @@
-# 🌿 Plant Disease Detection using Deep Learning
+# 🌿 Plant Disease Detection
 
-This project is a deep learning-based web application that detects plant diseases from leaf images using MobileNetV2.
+## 📌 Project Description
+This project uses Machine Learning to detect plant diseases from leaf images.  
+It helps in early identification of plant diseases, which is useful for farmers and agriculture.
 
-## 🚀 Features
-- Detects plant diseases from leaf images
-- Identifies plant name and disease name
-- Displays prediction confidence
-- Provides cure and prevention tips
-- Simple and user-friendly web interface
+---
 
-## 🧠 Technologies Used
+## ⚙️ Technologies Used
 - Python
-- TensorFlow / Keras
-- Flask
-- HTML & CSS
+- Machine Learning / Deep Learning
+- OpenCV / TensorFlow / Keras (edit based on your project)
 
-## 📂 Project Structure
+---
+
+## 🧠 Model Details
+- Model: (write your model here, e.g., CNN)
+- Dataset: (mention dataset name)
+- Accuracy: (write your accuracy)
+
+---
+
+## 📸 Output Screenshots
+
+### Input Image
+![Input](input.png)
+
+### Prediction Result
+![Result](output.png)
+
+---
+
+## 🚀 How to Run
+1. Clone the repository  
+2. Install dependencies  
+3. Run the main file  
+
+---
+
+## 📌 Future Improvements
+- Add web interface (Streamlit/Flask)
+- Improve model accuracy
+- Add more disease classes
